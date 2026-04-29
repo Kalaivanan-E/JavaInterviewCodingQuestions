@@ -11,17 +11,35 @@ public class findDuplicatesElement {
 //                System.out.println("Duplicates : " + num);
 //            }
 //        }
+// static void main(){
+//     int[] arr = {1,2,3,4,2,5};
+//     for(int i =0; i<arr.length; i++){
+//         for(int j= i+1; j<arr.length; j++){  // We don’t want to compare same element again,We already compared previous elements
+//             if(arr[i] == arr[j]){
+//                 System.out.println("Duplicates : " + arr[i]);
+//             }
+//         }
+//     }
+// }
+
+// print without duplicates elements
+
 static void main(){
-    int[] arr = {1,2,3,4,2,5};
-    for(int i =0; i<arr.length; i++){
-        for(int j= i+1; j<arr.length; j++){  // We don’t want to compare same element again,We already compared previous elements
+    int [] arr = {1,2,3,2,4,5,6,5,7};
+    for(int i = 0; i<arr.length; i++){
+        boolean isDuplicate = false;
+        for(int j=0; j<i ; j++){
             if(arr[i] == arr[j]){
-                System.out.println("Duplicates : " + arr[i]);
+                isDuplicate = true;
+                break;
             }
+        }
+        if(!isDuplicate){
+            System.out.print(arr[i] + " ");
         }
     }
 }
 
-    }
+}
 
 
