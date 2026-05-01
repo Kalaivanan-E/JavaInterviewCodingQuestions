@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java CodingQuestions.iml" filepath="$PROJECT_DIR$/.idea/Java CodingQuestions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasics/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics/JavaBasics.iml" />
     </modules>
   </component>
 </project>
