@@ -30,7 +30,14 @@ class removeDuplicates1{
             }
             if(!isDuplicates){
                 System.err.print(arr[i] + " ");
-            }
+            } 
         }
     }
 }
+
+/*
+This program removes duplicate elements from an array.
+I used nested loops where the outer loop selects each element and the inner loop compares it with previous elements.
+A boolean variable is used to identify duplicates.
+If the element is not duplicate, it gets printed.
+ */
