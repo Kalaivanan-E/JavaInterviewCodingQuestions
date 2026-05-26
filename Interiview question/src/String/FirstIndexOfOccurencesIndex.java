@@ -18,6 +18,5 @@ class FirstIndexOfOccurencesIndex {
             }
         }
         System.out.println(result);
-       
     }
 }
