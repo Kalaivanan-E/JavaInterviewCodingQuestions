@@ -6,7 +6,7 @@ public class BinearySearch {
 
     static void main() {
         int[] arr = {10, 20, 30, 40, 50};
-        int target = 30;
+        int target = 20;
 
         int left = 0, right = arr.length-1;
         while (left<=right){
