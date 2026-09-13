@@ -7,6 +7,6 @@ public class Question6 {
         System.out.println(i); // 10 because 
     }
     public static void changeValue(int i){
-        i =50;                     // i = 50 but this will be used within the block only cannot be used in the main method
+        i =50;   // i = 50 but this will be used within the block only cannot be used in the main method
     }
 }
